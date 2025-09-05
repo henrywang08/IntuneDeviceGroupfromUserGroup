@@ -1,10 +1,10 @@
 # Install necessary Microsoft Graph modules, allowing overwriting of existing versions if necessary.
-<#
+
 install-module Microsoft.Graph.Authentication -AllowClobber -Force
 install-module Microsoft.Graph.Groups -AllowClobber -Force
 install-module Microsoft.Graph.DeviceManagement -AllowClobber -Force
 install-module Microsoft.Graph.Users -AllowClobber -Force
-#>
+
 
 # Import the installed modules into the current PowerShell session.
 import-module Microsoft.Graph.Authentication  -Force
